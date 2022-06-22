@@ -211,38 +211,14 @@ body main .searchSection .search .input {
 }
 
 body main .searchSection .search .input input {
-  border: none;
-  width: 447px;
-  height: 34px;
-  margin: -37px 0px 0px;
+  all: unset;
 }
 
-body main .searchSection .search .input input:hover {
-  border: none;
-}
-
-body main .searchSection .search .input input:active {
-  border: none;
-}
-
-body main .searchSection .search .input input:focus {
-  border: none;
-  border-style: none;
-}
-
-body main .searchSection .search .input input {
-  border: none;
-  background-image: none;
-  background-color: transparent;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-body main .searchSection .search .voiceSearch {
+body main .searchSection .search .input .voiceSearch {
   display: inline;
 }
 
-body main .searchSection .search .voiceSearch img {
+body main .searchSection .search .input .voiceSearch img {
   width: 20px;
   height: 20px;
 }
