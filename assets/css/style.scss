@@ -105,39 +105,52 @@ body{
     }
     main{
        .logo{
-        height: 290px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        img{
-            width: 272px;
-            height: 92px;
-            margin-top: 200px;
+            height: 290px;
+            display: block;
+            text-align: center;
+                img{
+                    width: 272px;
+                    height: 92px;
+                    margin-top: 200px;
+                }
         }
-       }
-       .searchbar{
-        height: 40px;
-        margin: 8px;
-        .search{
-            width: 33px;
-            height: 44px;
-            margin: -5px 0px 0px 0px;
-            padding: 0px 13px 0px 0px;
-            .searchIcon{
-                width: 20px;
-                height: 26px;
-                margin: 9px 0px;
-                svg{
-                    width: 24px;
-                    height: 24px;
-                    path{
-                        width: 17.49px;
-                        height: 17.49px;
+        .searchSection{
+            height: 160px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            .search{
+                width:  575px;
+                height: 44px;
+                padding: 5px 15px 0px 14px;
+                border: 1px solid rgba(128, 128, 128, 0.209);
+                border-radius: 25px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .searchIcon{
+                    display: inline;
+                    svg{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                .input{
+                    display: inline;
+                    input{
+                            all: unset;
+                    }
+                .voiceSearch{
+                    display: inline;
+                    img{
+                        width: 20px;
+                        height: 20px;
                     }
                 }
             }
-           }
         }
-       }
 
+    }
+
+}
 }
