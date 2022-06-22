@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  background-color: white;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  padding-top: 7px;
+  padding-left: 5px;
+}
+
+body header nav {
+  width: 221.59px;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav .links {
+  width: 121.59px;
+  height: 24.84px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 15px;
+}
+
+body header nav .links a {
+  text-decoration: none;
+  color: #393939;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding-left: 15px;
+}
+
+body header nav .links a:hover {
+  text-decoration: underline;
+}
+
+body header nav .googleAppsIcon {
+  width: 48px;
+  height: 48px;
+  padding: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav .googleAppsIcon .appSection {
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header nav .googleAppsIcon .appSection .apps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 24px;
+  height: 24px;
+}
+
+body header nav .googleAppsIcon .appSection .apps .appsIcon {
+  width: 16px;
+  height: 16px;
+}
+
+body header nav .googleAppsIcon .appSection .apps:hover {
+  border-radius: 50%;
+  background-color: #45444419;
+}
+
+body header nav .profile {
+  width: 48px;
+  height: 48px;
+  padding: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px;
+}
+
+body header nav .profile .profileBorder {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px;
+}
+
+body header nav .profile .profileBorder img {
+  width: 32px;
+  border-radius: 50%;
+}
+
+body header nav .profile .profileBorder:hover {
+  background-color: #72727216;
+  border-radius: 50%;
+}
+
+body main .logo {
+  height: 290px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .logo img {
+  width: 272px;
+  height: 92px;
+  margin-top: 200px;
+}
+
+body main .searchbar {
+  height: 40px;
+  margin: 8px;
+}
+
+body main .searchbar .search {
+  width: 33px;
+  height: 44px;
+  margin: -5px 0px 0px 0px;
+  padding: 0px 13px 0px 0px;
+}
+
+body main .searchbar .search .searchIcon {
+  width: 20px;
+  height: 26px;
+  margin: 9px 0px;
+}
+
+body main .searchbar .search .searchIcon svg {
+  width: 24px;
+  height: 24px;
+}
+
+body main .searchbar .search .searchIcon svg path {
+  width: 17.49px;
+  height: 17.49px;
+}
+/*# sourceMappingURL=style.css.map */
