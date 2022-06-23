@@ -36,7 +36,7 @@ body header nav {
 }
 
 body header nav .links {
-  width: 121.59px;
+  width: 90.59px;
   height: 24.84px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -170,7 +170,7 @@ body main .logo img {
 }
 
 body main .searchSection {
-  height: 160px;
+  height: 50px;
   padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -202,6 +202,10 @@ body main .searchSection .search .searchIcon {
 }
 
 body main .searchSection .search .searchIcon svg {
+  color: #B2B8BC;
+}
+
+body main .searchSection .search .searchIcon svg {
   width: 20px;
   height: 20px;
 }
@@ -212,5 +216,160 @@ body main .searchSection .search .input {
 
 body main .searchSection .search .input input {
   all: unset;
+}
+
+body main .searchSection .search .keyboard i {
+  margin-left: 270px;
+  font-size: 24px;
+  margin-bottom: 5px;
+  color: #6b6b6b;
+}
+
+body main .featureSection .feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .featureSection .feature .googleSearch .gsearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F8F9FA;
+  width: 120px;
+  height: 36px;
+  margin: 11px 4px;
+  padding: 0px 16px;
+  border-radius: 2px;
+}
+
+body main .featureSection .feature .googleSearch .gsearch p {
+  color: #393939;
+  font-size: 15.7px;
+}
+
+body main .featureSection .feature .googleSearch .gsearch:hover {
+  border: 0.5px solid black;
+}
+
+body main .featureSection .feature .feelingLucky .flucky {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F8F9FA;
+  width: 90px;
+  height: 36px;
+  margin: 11px 4px;
+  padding: 0px 16px;
+  border-radius: 2px;
+  color: #393939;
+}
+
+body main .featureSection .feature .feelingLucky .flucky a {
+  text-decoration: none;
+  color: #393939;
+  font-size: 15.7px;
+}
+
+body main .featureSection .feature .feelingLucky .flucky a:hover {
+  text-decoration: none;
+}
+
+body main .featureSection .feature .feelingLucky .flucky:hover {
+  border: 0.5px solid rgba(109, 109, 109, 0.417);
+}
+
+body main .featureSection .language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+}
+
+body main .featureSection .language p a {
+  margin-left: 3px;
+}
+
+body main .empty {
+  height: 690px;
+}
+
+body footer .region p {
+  color: #666463;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+  padding: 16px;
+}
+
+body footer hr {
+  border: 1px solid rgba(128, 128, 128, 0.156);
+}
+
+body footer .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 46px;
+}
+
+body footer .about .us {
+  padding: 16px;
+}
+
+body footer .about .us a {
+  color: #666463;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 35px;
+  text-decoration: none;
+}
+
+body footer .about .policy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body footer .about .policy a {
+  color: #666463;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+  text-decoration: none;
+  margin-right: 35px;
 }
 /*# sourceMappingURL=style.css.map */

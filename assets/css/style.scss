@@ -8,6 +8,8 @@
 $appsIconColor: #45444419;
 $headerFontColor: #393939;
 $hover: #72727216;
+$iconColor: #B2B8BC;
+$iconColorKeyboard: #6b6b6b;
 
 // Body Section 
 body{
@@ -26,7 +28,7 @@ body{
             justify-content: center;
             align-items: center;
             .links{
-                width: 121.59px;
+                width: 90.59px;
                 height: 24.84px;
                 display: flex;
                 align-items: center;
@@ -115,7 +117,7 @@ body{
                 }
         }
         .searchSection{
-            height: 160px;
+            height: 50px;
             padding: 20px;
             display: flex;
             justify-content: center;
@@ -131,6 +133,9 @@ body{
                 .searchIcon{
                     display: inline;
                     svg{
+                        color: $iconColor;
+                    }
+                    svg{
                         width: 20px;
                         height: 20px;
                     }
@@ -140,11 +145,135 @@ body{
                     input{
                         all: unset;
                     }
-                
+
+                }
+                .keyboard{
+                    i{
+                        margin-left: 270px;
+                        font-size: 24px;
+                        margin-bottom: 5px;
+                        color: $iconColorKeyboard;
+                    }
+                }
+            }
+
+        }
+        .featureSection{
+            .feature{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                .googleSearch{
+                    .gsearch{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #F8F9FA;
+                        width: 120px;
+                        height: 36px;
+                        margin: 11px 4px;
+                        padding: 0px 16px;
+                        border-radius: 2px;
+                        p{
+                            color: $headerFontColor;
+                            font-size: 15.7px;
+                        }
+                    }
+                    .gsearch:hover{
+                        border: 0.5px solid black;
+                    }
+                }
+                .feelingLucky{
+                    .flucky{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        background-color: #F8F9FA;
+                        width: 90px;
+                        height: 36px;
+                        margin: 11px 4px;
+                        padding: 0px 16px;
+                        border-radius: 2px;
+                            color: $headerFontColor;
+                            a{
+                                text-decoration: none;
+                                color: $headerFontColor;
+                                font-size: 15.7px;
+                            }
+                            a:hover{
+                                text-decoration: none;
+                            }
+                       
+                    }
+                    .flucky:hover{
+                        border: 0.5px solid rgba(109, 109, 109, 0.417);
+                    }
+                }
+            }
+            .language{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50px;
+                p{
+                    a{
+                        margin-left: 3px;
+                    }
+                }
+            }
+            
+        }
+        .empty{
+            height: 690px;
+        }
+    }
+    
+
+    // Footer Section 
+    footer{
+        .region{
+            p{
+                color: #666463;
+                font-size: 15px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-left: 30px;
+                padding: 16px;
             }
         }
-
-    }
-
+        hr{
+            border: 1px solid rgba(128, 128, 128, 0.156);
+        }
+        .about{
+            display: flex;
+            justify-content: space-between;
+            height: 46px;
+            .us{
+                padding: 16px;
+                a{
+                    color: #666463;
+                    font-size: 14px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin-left: 35px;
+                    text-decoration: none;
+                    
+                    
+                }
+            }
+            
+            .policy{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a{
+                    color: #666463;
+                    font-size: 14px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    margin-left: 30px;
+                    text-decoration: none;
+                    margin-right: 35px;
+                    
+                }
+            }
+        }
     }
 }
