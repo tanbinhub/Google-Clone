@@ -213,13 +213,4 @@ body main .searchSection .search .input {
 body main .searchSection .search .input input {
   all: unset;
 }
-
-body main .searchSection .search .input .voiceSearch {
-  display: inline;
-}
-
-body main .searchSection .search .input .voiceSearch img {
-  width: 20px;
-  height: 20px;
-}
 /*# sourceMappingURL=style.css.map */
