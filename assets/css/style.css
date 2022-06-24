@@ -243,6 +243,11 @@ body main .searchSection .search .voiceSearch .keyboard i {
   color: #6b6b6b;
 }
 
+body main .searchSection .search:hover {
+  -webkit-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.13);
+          box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.13);
+}
+
 body main .featureSection .feature {
   display: -webkit-box;
   display: -ms-flexbox;
