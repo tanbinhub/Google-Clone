@@ -183,7 +183,7 @@ body main .searchSection {
 body main .searchSection .search {
   width: 575px;
   height: 44px;
-  padding: 5px 15px 0px 14px;
+  padding: 0px 15px 0px 14px;
   border: 1px solid rgba(128, 128, 128, 0.209);
   border-radius: 25px;
   display: -webkit-box;
@@ -218,10 +218,19 @@ body main .searchSection .search .input input {
   all: unset;
 }
 
-body main .searchSection .search .keyboard i {
-  margin-left: 270px;
+body main .searchSection .search .voiceSearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+body main .searchSection .search .voiceSearch .keyboard i {
+  padding-right: 15px;
   font-size: 24px;
-  margin-bottom: 5px;
   color: #6b6b6b;
 }
 
@@ -315,6 +324,9 @@ body main .featureSection .language p a {
 }
 
 body main .empty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   height: 690px;
 }
 
@@ -366,10 +378,49 @@ body footer .about .policy {
 
 body footer .about .policy a {
   color: #666463;
-  font-size: 14px;
+  font-size: 1;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 30px;
   text-decoration: none;
   margin-right: 35px;
+}
+
+@media only screen and (max-width: 314) {
+  body main .empty {
+    height: 150px;
+  }
+  body footer .about .us {
+    padding: 0px;
+  }
+  body footer .about .us a {
+    font-size: 8px;
+  }
+  body footer .about .policy a {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  body main .empty {
+    height: 200px;
+  }
+  body footer .about .us a {
+    font-size: 8px;
+  }
+  body footer .about .policy a {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 390) {
+  body main .empty {
+    height: 200px;
+  }
+  body footer .about .us a {
+    font-size: 8px;
+  }
+  body footer .about .policy a {
+    font-size: 8px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

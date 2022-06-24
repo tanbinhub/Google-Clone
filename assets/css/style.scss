@@ -124,7 +124,7 @@ body{
             .search{
                 width:  575px;
                 height: 44px;
-                padding: 5px 15px 0px 14px;
+                padding: 0px 15px 0px 14px;
                 border: 1px solid rgba(128, 128, 128, 0.209);
                 border-radius: 25px;
                 display: flex;
@@ -147,14 +147,19 @@ body{
                     }
 
                 }
-                .keyboard{
-                    i{
-                        margin-left: 270px;
-                        font-size: 24px;
-                        margin-bottom: 5px;
-                        color: $iconColorKeyboard;
+                .voiceSearch{
+                    display: flex;
+                    flex-direction: row-reverse;
+                    .keyboard{
+                        i{
+                            padding-right: 15px;
+                            font-size: 24px;
+                            color: $iconColorKeyboard;
+                        }
                     }
+
                 }
+                
             }
 
         }
@@ -224,6 +229,7 @@ body{
             
         }
         .empty{
+            display: flex;
             height: 690px;
         }
     }
@@ -266,7 +272,7 @@ body{
                 align-items: center;
                 a{
                     color: #666463;
-                    font-size: 14px;
+                    font-size: 1;
                     font-family: Arial, Helvetica, sans-serif;
                     margin-left: 30px;
                     text-decoration: none;
@@ -275,5 +281,97 @@ body{
                 }
             }
         }
+    }
+}
+
+@media only screen and (max-width: 314) {
+    body{
+        main{
+            .empty{
+                height: 150px;
+            }
+        }
+        footer{
+            .about{
+                .us{
+                    padding: 0px;
+                        
+                    a{
+                       
+                        font-size: 8px;
+                    }
+                }
+                .policy{
+                    a{
+                        font-size: 8px;
+                        
+                    }
+                    
+
+                }
+            }
+        }
+
+    }
+}
+@media only screen and (max-width: 414px) {
+    body{
+        main{
+            .empty{
+                height: 200px;
+            }
+        }
+        footer{
+            .about{
+                .us{
+                    
+                        
+                    a{
+                       
+                        font-size: 8px;
+                    }
+                }
+                .policy{
+                    
+                    a{
+                        font-size: 8px;
+                        
+                    }
+                    
+
+                }
+            }
+        }
+
+    }
+}
+@media only screen and (max-width: 390) {
+    body{
+        main{
+            .empty{
+                height: 200px;
+            }
+        }
+        footer{
+            .about{
+                
+                .us{
+                    a{
+                       
+                        font-size: 8px;
+                    }
+                }
+                .policy{
+                    
+                    a{
+                        font-size: 8px;
+                        
+                    }
+                    
+
+                }
+            }
+        }
+
     }
 }
