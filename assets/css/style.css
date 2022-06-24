@@ -51,6 +51,9 @@ body header nav .links {
 }
 
 body header nav .links a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-decoration: none;
   color: #393939;
   font-family: Arial, Helvetica, sans-serif;
@@ -148,6 +151,9 @@ body header nav .profile .profileBorder {
 }
 
 body header nav .profile .profileBorder img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 32px;
   border-radius: 50%;
 }
@@ -215,7 +221,10 @@ body main .searchSection .search .input {
 }
 
 body main .searchSection .search .input input {
-  all: unset;
+  width: 460px;
+  height: 40px;
+  outline: none;
+  border: none;
 }
 
 body main .searchSection .search .voiceSearch {
@@ -364,6 +373,10 @@ body footer .about .us a {
   text-decoration: none;
 }
 
+body footer .about .us .hsw {
+  font-size: 5px;
+}
+
 body footer .about .policy {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -378,25 +391,39 @@ body footer .about .policy {
 
 body footer .about .policy a {
   color: #666463;
-  font-size: 1;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 30px;
   text-decoration: none;
   margin-right: 35px;
 }
 
-@media only screen and (max-width: 314) {
+@media only screen and (max-width: 314px) {
   body main .empty {
     height: 150px;
   }
   body footer .about .us {
     padding: 0px;
   }
-  body footer .about .us a {
-    font-size: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+  body main .empty {
+    height: 690px;
+  }
+  body footer .region {
+    margin-left: 35px;
+  }
+  body footer .about .us {
+    margin-left: 35px;
+  }
+  body footer .about .us .hsw {
+    font-size: 14px;
+  }
+  body footer .about .policy {
+    width: 70%;
   }
   body footer .about .policy a {
-    font-size: 8px;
+    font-size: 14px;
   }
 }
 
@@ -407,17 +434,8 @@ body footer .about .policy a {
   body footer .about .us a {
     font-size: 8px;
   }
-  body footer .about .policy a {
-    font-size: 8px;
-  }
-}
-
-@media only screen and (max-width: 390) {
-  body main .empty {
-    height: 200px;
-  }
-  body footer .about .us a {
-    font-size: 8px;
+  body footer .about .policy {
+    width: 70%;
   }
   body footer .about .policy a {
     font-size: 8px;
